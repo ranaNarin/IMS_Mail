@@ -1,0 +1,21 @@
+
+server:
+  port: 8084
+
+spring:
+  application:
+    name: IMS-Mail
+  mail:
+    host: smtp.gmail.com
+    username: [email id ]
+    password: [ password ]
+    port: 587
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+
+
+
